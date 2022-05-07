@@ -2,6 +2,9 @@
   "name": "n8n",
   "version": "0.175.0",
   "private": true,
+  "engines" : {
+    "node" : "16"
+  },
   "homepage": "https://n8n.io",
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist --no-ci",
